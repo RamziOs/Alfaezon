@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfaezon External Recruitment </title>
+
+    <!-- 
+    - favicon
+    -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <!-- 
+    - bootstrap
+-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- 
+    - jquery
+-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- 
+    - popper
+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- 
+    - bootstrap
+-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- 
+    - slick
+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.5/slick.min.js"></script>
+    <!-- 
+    - fontawesome
+-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- 
+    - google fonts
+-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <!-- 
+    - swiper
+-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+    <!-- 
+    - custom css link
+-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/career.css">
+</head>
+
+<body>
+
+    <!--
+        - #HEADER 
+    -->
+    <header class="header" data-header>
+
+        <div class="overlay" data-overlay></div>
+
+        <div class="header-top">
+            <div class="container">
+
+                <a href="tel:+01123456790" class="helpline-box">
+
+                    <div class="icon-box">
+                        <ion-icon name="call-outline"></ion-icon>
+                    </div>
+
+                    <div class="wrapper">
+                        <p class="helpline-title" data-i18n="forFurtherInquires">For Further Inquires :</p>
+
+                        <p class="helpline-number">+249 123 50 128 8</p>
+                    </div>
+
+                </a>
+
+                <a href="#" class="logo">
+                    <img src="./assets/images/logo.svg" alt="Tourly logo">
+                </a>
+
+
+
+                <div class="header-btn-group">
+
+                    <button class="search-btn" aria-label="Search">
+                        <ion-icon name="search"></ion-icon>
+                    </button>
+
+                    <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="container">
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <nav class="navbar" data-navbar>
+
+                    <div class="navbar-top">
+
+                        <a href="#" class="logo">
+                            <img src="./assets/images/logo-blue.svg" alt="Tourly logo">
+                        </a>
+
+
+                        <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                    </div>
+
+                    <ul class="navbar-list">
+
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link data-i18n="home">home</a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="navbar-link" data-nav-link data-i18n="about">about</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link
+                                data-i18n="destination">destination</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link data-i18n="packages">packages</a>
+                        </li>
+
+                        <li>
+                            <a href="career.html" class="navbar-link" data-nav-link data-i18n="careers">Careers</a>
+                        </li>
+
+                        <li>
+                            <a href="index.html" class="navbar-link" data-nav-link data-i18n="contact">contact us</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+
+                <select class="btn btn-primary">
+                    <option value="en" data-i18n="english" selected>English</option>
+                    <option value="ar" data-i18n="arabic">Arabic</option>
+                </select>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!--
+        - #JOB SEARCH 
+    -->
+    <section class="popular" id="destination">
+        <div class="container">
+            <div class="job-search">
+                <div class="container">
+                    <!--*-->
+                    <div class="row">
+                        <div class="col-xl-10">
+                            <div class="motivational-text mt-5">
+                                <h2 class="mb-1"> Find a Job and <br /> Secure your future </h2>
+                                <p class="mb-4"> Ensuring Safety, Security and Quality! </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--*-->
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="job-search-tab" class="nav nav-pills text-center job-search-tabs" role="tablist"
+                                aria-orientation="vertical">
+                                <!--*-->
+                                <a id="job-search-1-tab" class="nav-link active mr-md-1" data-toggle="pill"
+                                    href="#job-search-1" role="tab" aria-controls="job-search-1" aria-selected="true">
+                                    Job Search </a>
+                                <!--*-->
+                                <!---<a class="nav-link" id="job-search-2-tab" data-toggle="pill" href="#job-search-2" role="tab" aria-controls="job-search-2" aria-selected="false">Tab-2</a>-->
+                                <!--*-->
+                            </div>
+
+                            <div id="job-search-tab-content" class="tab-content job-search-tab-content pt-2">
+                                <!--*-->
+                                <div id="job-search-1" class="tab-pane fade show active" role="tabpanel"
+                                    aria-labelledby="job-search-nextgen-tab">
+                                    <form action="#" class="search-job-bar">
+                                        <div class="row">
+                                            <!--*-->
+                                            <div class="col-12 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-field">
+                                                        <div class="select-wrap">
+                                                            <div class="icon"><i class="fas fa-chevron-down"></i></div>
+                                                            <select class="form-control search-categories">
+                                                                <option value="">Categories</option>
+                                                                <option value="accounts-and-finance">Accounts and
+                                                                    Finance
+                                                                </option>
+                                                                <option value="domestic">Domestic</option>
+                                                                <option value="engineering">Engineering</option>
+                                                                <option value="graphic-designing">Graphic Designing
+                                                                </option>
+                                                                <option value="hospitality">Hospitality</option>
+                                                                <option value="information-technology">Information
+                                                                    Technology
+                                                                </option>
+                                                                <option value="management">Management</option>
+                                                                <option value="medical">Medical</option>
+                                                                <option value="office-management">Office Management
+                                                                </option>
+                                                                <option value="sales-and-marketing">Sales and Marketing
+                                                                </option>
+                                                                <option value="teaching">Teaching</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--*-->
+                                            <div class="col-12 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-field">
+                                                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                                        <input type="text" class="form-control"
+                                                            placeholder="City, State or ZIP">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--*-->
+                                        </div>
+                                        <div class="row">
+                                            <!--*-->
+                                            <div class="col-12 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-field">
+                                                        <div class="icon"><i class="fas fa-briefcase"></i></div>
+                                                        <input type="text" class="form-control"
+                                                            placeholder="eg. Designer, Developer, Marketing manager">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--*-->
+                                            <div class="col-12 col-sm-6">
+                                                <div class="form-group">
+                                                    <div class="form-field">
+                                                        <button type="submit"
+                                                            class="form-control job-search-btn">Search</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                    <!--*-->
+                                    <div class="row">
+                                        <div class="col">
+                                            <a class="btn job-search-btn mt-3 mb-3">
+                                                <i class="far fa-address-card"></i> Register </a>
+                                        </div>
+                                        <!--*-->
+                                        <div class="col">
+                                            <a class="btn job-search-btn mt-3 mb-3">
+                                                <i class="fas fa-briefcase"></i> Hire </a>
+                                        </div>
+                                    </div>
+                                    <!--*-->
+                                </div>
+                                <!--*-->
+                                <!--<div class="tab-pane fade" id="job-search-2" role="tabpanel" aria-labelledby="job-search-performance-tab"></div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--*-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+        -# Blog
+    -->
+
+
+    <!--our-blogs-->
+    <section class="section bg-img bg-5">
+        <div class="section-heading">
+            <h3>Our Blog</h3>
+        </div>
+        <div id="blog-slider" class="blog-slider">
+            <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="https://360clouderp.net/khawateen/assets/images/blog/blog3.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">26 December 2022</span>
+                        <div class="blog-slider__title">Blog 1 - Lorem Ipsum Dolor</div>
+                        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Recusandae voluptate repellendus magni illo ea animi? </div>
+                        <a href="#" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="https://360clouderp.net/khawateen/assets/images/blog/blog2.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">26 December 2022</span>
+                        <div class="blog-slider__title">Blog 2 - Lorem Ipsum Dolor2</div>
+                        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Recusandae voluptate repellendus magni illo ea animi?</div>
+                        <a href="#" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="https://360clouderp.net/khawateen/assets/images/blog/blog1.jpg" alt="">
+                    </div>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code">26 December 2022</span>
+                        <div class="blog-slider__title">Blog 3 - Lorem Ipsum Dolor</div>
+                        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Recusandae voluptate repellendus magni illo ea animi?</div>
+                        <a href="#" class="blog-slider__button">READ MORE</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="blog-slider__pagination"></div>
+        </div>
+    </section>
+    <!--
+        -#CAREERS
+    -->
+
+
+    <section class="section bg-img bg-featured-jobs featured-jobs-contianer">
+        <div class="section-heading">
+            <h3>Available jobs</h3>
+        </div>
+
+        <div id="featured-jobs-slider" class="featured-jobs-slider">
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Marketing Specialist </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $1700 - $1900 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Administrative Assistant </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $27000 - $39000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Executive Assistant </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $37000 - $69000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Marketing Manager </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $17000 - $19000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Customer Service Representative </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $25000 - $35000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Nurse Practitioner </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $6000 - $10000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Software Engineer </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $65000 - $109000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Sales Manager </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $55000 - $80000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#">
+                                            KSA </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full
+                                            Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Office Assistant </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $4000 - $7000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#"> KSA
+                                        </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Data Entry Clerk </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $10000 - $15000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#"> KSA
+                                        </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Marketing Coordinator </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $75000 - $90000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#"> KSA
+                                        </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Web Designer </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $80000 - $100000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#"> KSA
+                                        </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Project Manager </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $17000 - $19000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#"> KSA
+                                        </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Account Executive </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $55000 - $90000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#"> KSA
+                                        </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="slide">
+                <div class="featured-job-post">
+                    <div class="row no-gutters">
+                        <div class="col-3">
+                            <div class="company-logo"><a href="#"><img
+                                        src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo4.png"
+                                        alt="logo"></a></div>
+                        </div>
+                        <div class="col-9">
+                            <div class="employer-job-info">
+                                <div class="job-title">
+                                    <a href="#"> Medical Assistant </a>
+                                    <i onclick="AddToFavourite(this)" class="far fa-heart float-right"></i>
+                                </div>
+                                <div class="job-salary"> $170000 - $190000 </div>
+                                <div class="job-meta">
+
+                                    <span class="job-location"> <i class="fas fa-map-marker"></i><a href="#"> KSA
+                                        </a>
+                                    </span>
+                                    <span class="job-type"><i class="fas fa-briefcase"></i> <a href="#">Full Time</a>
+                                    </span>
+                                    <span class="job-date"> <i class="fas fa-clock"></i> Nov 7, 2022 </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- 
+    - #FOOTER
+    -->
+
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo.svg" alt="Tourly logo">
+                    </a>
+
+                    <p class="footer-text">
+                        Urna ratione ante harum provident, eleifend, vulputate molestiae proin fringilla, praesentium
+                        magna conubia
+                        at
+                        perferendis, pretium, aenean aut ultrices.
+                    </p>
+
+                </div>
+
+                <div class="footer-contact">
+
+                    <h4 class="contact-title">Contact Us</h4>
+
+                    <p class="contact-text">
+                        Feel free to contact and reach us !!
+                    </p>
+
+                    <ul>
+
+                        <li class="contact-item">
+                            <ion-icon name="call-outline"></ion-icon>
+
+                            <a href="tel:+01123456790" class="contact-link">+01 (123) 4567 90</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="mail-outline"></ion-icon>
+
+                            <a href="mailto:info.tourly.com" class="contact-link">info.tourly.com</a>
+                        </li>
+
+                        <li class="contact-item">
+                            <ion-icon name="location-outline"></ion-icon>
+
+                            <address>3146 Koontz, California</address>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-form">
+
+                    <p class="form-text">
+                        Subscribe our newsletter for more update & news !!
+                    </p>
+
+                    <form action="" class="form-wrapper">
+                        <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+                        <button type="submit" class="btn btn-secondary">Subscribe</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    &copy; 2022 <a href="">codewithsadee</a>. All rights reserved
+                </p>
+
+                <ul class="footer-bottom-list">
+
+                    <li>
+                        <a href="#" class="footer-bottom-link">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-bottom-link">Term & Condition</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-bottom-link">FAQ</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- 
+    - #GO TO TOP
+    -->
+
+    <a href="#top" class="go-top" data-go-top>
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- 
+        - custom js link
+    -->
+    <script src="./assets/js/script.js" type="module"></script>
+
+    <!-- 
+        - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
